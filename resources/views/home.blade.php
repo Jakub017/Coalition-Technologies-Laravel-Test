@@ -3,7 +3,7 @@
 <div class="container p-4">
     <div class="row">
         <h1 class="text-center uppercase">Coalition Technologies Laravel test</h1>
-        <form id="product-form" action="#" method="POST">
+        <form id="product-form" action="{{route('store')}}" method="POST">
             @csrf
             <div class="row">
                 <div class="col-12 col-md-4 mt-3">
